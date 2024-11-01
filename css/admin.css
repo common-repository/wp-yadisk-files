@@ -1,0 +1,115 @@
+/* ADMIN CSS */
+
+.wp-yadisk-files .clear {
+	clear: both;
+}
+
+.wp-yadisk-files .wp-yadisk-files-bl {
+	background: #f3f3f3; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YzZjNmMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkZmRmZGYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #f3f3f3 0%, #dfdfdf 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3f3f3), color-stop(100%,#dfdfdf)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f3f3f3 0%,#dfdfdf 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f3f3f3 0%,#dfdfdf 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f3f3f3 0%,#dfdfdf 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f3f3f3 0%,#dfdfdf 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#dfdfdf',GradientType=0 ); /* IE6-8 */
+
+	border-radius: 6px / 4px;
+	box-shadow: 0px 2px 5px #333;
+	margin: 15px 0;
+}
+
+	.wp-yadisk-files .wp-yadisk-files-bl .in {
+		padding:5px 30px;
+	}
+	
+	.wp-yadisk-files .wp-yadisk-files-bl .hdr {
+		padding: 3px 30px;
+		height:40px;
+		line-height:38px;
+		border-bottom: 1px ridge #fff;
+	}
+	
+.wp-yadisk-files .hidden {
+	display: hidden;
+}
+
+.wp-yadisk-files input {
+	padding: 7px 14px;
+}
+
+.wp-yadisk-files label {
+	line-height: 30px;
+}
+
+.wp-yadisk-files iframe {
+	width: 145px;
+	height: 34px;
+}
+
+.wp-yadisk-files .nobutton {
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+.wp-yadisk-files h2,
+.wp-yadisk-files h3 {
+	margin-bottom: 0;
+	line-height:38px;
+	font-weight: normal;
+}
+
+	.yadisk-btn {
+		background-color: #f3f3f3;
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f3f3f3), color-stop(50%, #dddddd), color-stop(50%, #d2d2d2), color-stop(100%, #dfdfdf));
+		background-image: -webkit-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+		background-image: -moz-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+		background-image: -ms-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+		background-image: -o-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+		background-image: linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		-webkit-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d5d5d5;
+		box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d5d5d5;
+		font: bold 16px/1 "helvetica neue", helvetica, arial, sans-serif;
+		margin: 0px;
+		padding: 7px 14px;
+		text-align: center;
+		width: auto;
+		text-shadow: 0 1px 1px #fff;
+		display: block;
+		 }
+		.yadisk-btn:hover {
+		  background-color: #e5e5e5;
+		  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e5e5e5), color-stop(50%, #d1d1d1), color-stop(50%, #c4c4c4), color-stop(100%, #b8b8b8));
+		  background-image: -webkit-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+		  background-image: -moz-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+		  background-image: -ms-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+		  background-image: -o-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+		  background-image: linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+		  -webkit-box-shadow: inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9;
+		  box-shadow: inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9;
+		  cursor: pointer; }
+		.yadisk-btn:active {
+		  -webkit-box-shadow: inset 0 0 30px 0 #999999, 0 1px 0 0 white;
+		  box-shadow: inset 0 0 30px 0 #999999, 0 1px 0 0 white; }
+
+.wp-yadisk-files .icons {
+    background: url('../img/icons-sprite.png') no-repeat top left;
+	display: block;
+	padding-top: 130px;
+	text-align: center;
+}
+
+.wp-yadisk-files .icons.about{ background-position: 0 0; width: 128px; height: 20px; } 
+.wp-yadisk-files .icons.blog{ background-position: 0 -178px; width: 128px; height: 34px; } 
+.wp-yadisk-files .icons.coffee{ background-position: 0 -327px; width: 128px; height: 20px; } 
+.wp-yadisk-files .icons.github{ background-position: 0 -505px; width: 128px; height: 20px; } 
+.wp-yadisk-files .icons.keys{ background-position: 0 -683px; width: 128px; height: 20px; } 
+.wp-yadisk-files .icons.support{ background-position: 0 -861px; width: 128px; height: 20px; } 
+.wp-yadisk-files .icons.thanks{ background-position: 0 -1039px; width: 128px; height: 114px; } 
+.wp-yadisk-files .icons.wordpress{ background-position: 0 -1203px; width: 128px; height: 20px; } 
+
